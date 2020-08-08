@@ -1,5 +1,5 @@
 ################################################################################################
-1342	Number of Steps to Reduce a Number to Zero
+# 1342	Number of Steps to Reduce a Number to Zero
 ################################################################################################
 class Solution:
     def numberOfSteps (self, num: int) -> int:
@@ -21,7 +21,7 @@ class Solution:
             result += 1
         return result
 ################################################################################################
-1486	XOR Operation in an Array
+# 1486	XOR Operation in an Array
 ################################################################################################
 class Solution:
     def xorOperation(self, n: int, start: int) -> int:
@@ -38,7 +38,7 @@ class Solution:
             result ^= (start + (2 * i))
         return result
 ################################################################################################
-1086	High Five		sorting
+# 1086	High Five		sorting
 ################################################################################################
 class Solution:
     def highFive(self, items: List[List[int]]) -> List[List[int]]:
@@ -62,7 +62,7 @@ class Solution:
             
         return [[idx, val] for idx, val in d.items()]
 ################################################################################################
-112	Path Sum
+# 112	Path Sum
 ################################################################################################
 # Definition for a binary tree node.
 # class TreeNode:
@@ -95,7 +95,7 @@ class Solution:
             return True
         return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
 ################################################################################################
-997	Find the Town Judge
+# 997	Find the Town Judge
 ################################################################################################
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:            
@@ -111,7 +111,7 @@ class Solution:
                 return i
         return -1
 ################################################################################################
-392	Is Subsequence
+# 392	Is Subsequence
 ################################################################################################
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
@@ -125,7 +125,7 @@ class Solution:
         
         return i == s_len
 ################################################################################################
-303	Range Sum Query - Immutable
+# 303	Range Sum Query - Immutable
 ################################################################################################
 class NumArray:
 
